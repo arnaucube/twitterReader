@@ -6,7 +6,7 @@ import (
 
 func getTimeline(client *twitter.Client) []twitter.Tweet {
 	homeTimelineParams := &twitter.HomeTimelineParams{
-		Count: 4,
+		Count: 50,
 	}
 	tweets, _, _ := client.Timelines.HomeTimeline(homeTimelineParams)
 	return (tweets)
