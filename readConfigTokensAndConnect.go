@@ -34,7 +34,7 @@ func readConfigTokensAndConnect() (client *twitter.Client) {
 	// twitter client
 	client = twitter.NewClient(httpClient)
 
-	fmt.Println("connection successfull")
+	fmt.Println("connection successful")
 
 	return client
 }

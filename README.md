@@ -1,7 +1,9 @@
-# twitterReader
+# twitterReader [![Go Report Card](https://goreportcard.com/badge/github.com/arnaucode/twitterReader)](https://goreportcard.com/report/github.com/arnaucode/twitterReader)
 twitter reader assistant written in Go lang
 
-uses festival for the text to speech features
+uses Festival Speech Synthesis System (http://www.cstr.ed.ac.uk/projects/festival/) for the text to speech features
+
+![twitterReader](https://raw.githubusercontent.com/arnaucode/twitterReader/master/twitterReader.png "twitterREader")
 
 
 to execute

@@ -15,6 +15,9 @@ func festivalEn(text string) {
 	reader := strings.NewReader(text)
 	festival.Stdin = reader
 	err = festival.Run()
+	if err != nil {
+		fmt.Println("error")
+	}
 }
 
 func festivalCa(text string) {

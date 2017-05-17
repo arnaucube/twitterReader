@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	c.Cyan("hi")
+	c.Cyan("connecting to twitter api and getting the last tweets")
 	client := readConfigTokensAndConnect()
 	tweets := getTimeline(client)
 	for i := 0; i < len(tweets); i++ {
